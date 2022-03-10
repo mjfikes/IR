@@ -3,7 +3,7 @@ Institutional Research repository
 
 ## Perkins V Performance Measure Tool
 
-This utility is for calculating Perkins Performance measures 1P1, 2P1, and 3P1
+This utility is for calculating Perkins Performance measures 1P1, 2P1, and 3P1 by CIP, in addition to Special Population measures
 This is also available in a Google Colab notebook: https://colab.research.google.com/drive/1nT2Qt_woleoqYNBCqBn5dYWGo5EV2Cws?usp=sharing
 
 ## Usage
