@@ -1,20 +1,17 @@
 # IR
 Institutional Research repository
 
-## Perkins V Performance Measure Tool
+## IPEDS Cohort Clustering Model
 
-This utility is for calculating Perkins Performance measures 1P1, 2P1, and 3P1 by CIP, in addition to Special Population measures
-This is also available in a Google Colab notebook: https://githubtocolab.com/mjfikes/IR/blob/main/PerkinsV/PerkinsV.ipynb
-## Usage
+This code is set up to find similar IPEDS schools based on a given UNITID. 
+The code will obtain values from IPEDS directly and filter by some of the target school characteristics. 
+Some of the filters are set up to limit data to only 2-year public schools. 
+These are noted with comments in the code and can be altered to find other groups.
 
-This utility was designed to be run on the CTEA-1 and not CTEA-2. The program assumes
-CTEA-1A and CTEA-1B have already been combined into one file. The code looks for CTEA.xlsx
-but will prompt for a different file if it is not found.
+The code is not entirely automated, the number of clusters should be modified based on the results of the generated dendrograms. 
+Information on reading dendrograms is included where the first chart is generated.
 
-The utility assumes the data is numeric and not descriptive text. 
-The code can be altered to compensate for different responses in the data.
+This example resulted in exactly 10 schools after some filtering. 
+Your results may vary and you may wish to keep a larger initial cluster and filter it manually by looking at programs offered at the different comparison institutions. 
 
-The non-traditional crosswalk will be downloaded and joined to the CTEA data automatically for calculating measure 3P1.
-Combined results will be displayed, and a summary file for each CIP with all 3 measures can be either viewed or exported to Excel when complete.
-
-
+The method was based on a white paper from Dr. Andrew J. Luna and Austin Peay State University.
