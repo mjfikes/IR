@@ -17,3 +17,25 @@ Your results may vary and you may wish to keep a larger initial cluster and filt
 The method was based on a white paper from Dr. Andrew J. Luna and Austin Peay State University.
 
 Google colab link: https://githubtocolab.com/mjfikes/IR/blob/main/IPEDSCluster/IPEDS%20Clustering%20Model.ipynb
+
+IPEDS Variables used:
+
+* Undergrad Enrollment, latest Fall
+
+* 12-Month Enrollment, last academic year
+
+* 150% grad rate, based on IPEDS freshman cohort
+
+* Total operational revenue
+
+* Tuition + fees as a % of operational revenue
+
+* State appropriations as a % of operational revenue
+
+* Number of completions, latest academic year
+
+* Total expenses
+
+* in-state tuition/fees, on-campus
+
+* out-of-state tuition/fees, off-campus
