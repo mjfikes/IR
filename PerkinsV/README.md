@@ -13,6 +13,7 @@ CTEA-1A and CTEA-1B have already been combined into one file. The code looks for
 but will prompt for a different file if it is not found.
 
 If you do not have your files combined, you may first use the CTEA_Merge notebook to combine your files.
+https://githubtocolab.com/mjfikes/IR/blob/main/PerkinsV/CTEA_Merge.ipynb
 It requires that they are named CTEA_1A.xlsx and CTEA_1B.xlsx to run, but will join your data and return a CTEA.xlsx for use with the performance measure tool.
 
 The utility assumes the data is numeric and not descriptive text. 
