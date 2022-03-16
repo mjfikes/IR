@@ -15,3 +15,5 @@ This example resulted in exactly 10 schools after some filtering.
 Your results may vary and you may wish to keep a larger initial cluster and filter it manually by looking at programs offered at the different comparison institutions. 
 
 The method was based on a white paper from Dr. Andrew J. Luna and Austin Peay State University.
+
+Google colab link: https://githubtocolab.com/mjfikes/IR/blob/main/IPEDSCluster/IPEDS%20Clustering%20Model.ipynb
