@@ -3,7 +3,9 @@ Institutional Research repository
 
 ## Perkins V Performance Measure Tool
 
-This utility is for calculating Perkins Performance measures 1P1, 2P1, and 3P1 by CIP, in addition to Special Population measures
+This utility is for calculating Perkins Performance measures 1P1, 2P1, and 3P1 by CIP, in addition to Special Population measures.
+The latest update will also output enrollment and completion rates for Chart 7b of the CLNA.
+
 This is also available in a Google Colab notebook: https://githubtocolab.com/mjfikes/IR/blob/main/PerkinsV/PerkinsV.ipynb
 
 ### Usage
